@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Intent-Based Violence Prediction System 1.0',
+  title: 'Intent-Based Violence Prediction System',
   description: 'AI-powered detection of Non-Violent, Pre-Violent, and Violent behavior in video',
 }
 
