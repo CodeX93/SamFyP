@@ -5,7 +5,7 @@ export default function ServicesHeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/services/hero.jpg)'
+          backgroundImage: 'url(/images/services/Image%20%281%29.png)'
         }}
       >
         {/* Dark overlay for better text readability */}

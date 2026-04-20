@@ -107,7 +107,7 @@ export default function CoreCapabilitiesSection() {
             <div className="flex-1">
               <div className="relative rounded-xl overflow-hidden shadow-xl aspect-square">
                 <img
-                  src="/images/demo/cor-capablities.jpg"
+                  src="/images/demo/privacy-secure-people-matching.png"
                   alt="Core Capabilities"
                   className="w-full h-full object-cover"
                 />

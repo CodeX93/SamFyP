@@ -6,17 +6,12 @@ export default function FooterSection() {
         <div className="flex flex-col lg:flex-row items-start justify-between mb-12 pb-12 border-b border-gray-700">
           <div className="mb-8 lg:mb-0">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Contact us</h2>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="relative">
-                <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none"/>
-                  <circle cx="12" cy="8" r="2" fill="#EF4444"/>
-                  <path d="M8 16C8 14 10 12 12 12C14 12 16 14 16 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                  <path d="M6 6L10 10M14 10L18 6M6 18L10 14M18 18L14 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                </svg>
-                <div className="absolute top-0 right-0 w-3 h-3 bg-red-500 rounded-full"></div>
-              </div>
-              <span className="font-semibold text-lg">Intent-Based Violence Prediction System</span>
+            <div className="mb-4">
+              <img
+                src="/images/footer/footerLogo.png"
+                alt="Footer logo"
+                className="w-32 h-32 object-contain"
+              />
             </div>
           </div>
           
@@ -54,8 +49,8 @@ export default function FooterSection() {
           <div>
             <h4 className="font-bold text-lg mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="mailto:abc@gmail.com" className="hover:text-white transition-colors">abc@gmail.com</a></li>
-              <li><a href="tel:+92345678705" className="hover:text-white transition-colors">+92345678705</a></li>
+              <li><a href="mailto:ak31khan.03@gmail.com" className="hover:text-white transition-colors">ak31khan.03@gmail.com</a></li>
+              <li><a href="tel:+923160757674" className="hover:text-white transition-colors">+923160757674</a></li>
             </ul>
           </div>
           

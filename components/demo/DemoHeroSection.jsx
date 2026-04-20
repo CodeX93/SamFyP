@@ -5,7 +5,7 @@ export default function DemoHeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/demo/live-streaming.jpg)'
+          backgroundImage: 'url(/images/demo/Container%20%283%29.png)'
         }}
       >
         {/* Dark overlay for better text readability */}

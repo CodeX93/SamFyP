@@ -1,4 +1,4 @@
-import ScrollableHeader from '@/components/about-us/ScrollableHeader'
+import Header from '@/components/Header'
 import ContactHeroSection from '@/components/contact/ContactHeroSection'
 import ContactFormSection from '@/components/contact/ContactFormSection'
 import ContactInfoSection from '@/components/contact/ContactInfoSection'
@@ -7,7 +7,7 @@ import FooterSection from '@/components/FooterSection'
 export default function ContactPage() {
   return (
     <main className="min-h-screen overflow-x-hidden">
-      <ScrollableHeader />
+      <Header />
       <ContactHeroSection />
       <ContactFormSection />
       <ContactInfoSection />

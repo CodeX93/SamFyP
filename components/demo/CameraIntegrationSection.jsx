@@ -2,27 +2,27 @@ export default function CameraIntegrationSection() {
   const integrationPoints = [
     {
       icon: "Connection",
-      text: "The camera feeds are processed in real-time through a secure interface."
+      text: "User contacts for system integration"
     },
     {
       icon: "Activity",
-      text: "Detected behaviors are sent to the dashboard in real-time."
+      text: "Model is integrated with client camera/system"
     },
     {
       icon: "Brain",
-      text: "The AI model analyzes movements, actions, and behaviors patterns."
+      text: "Backend and data center are configured"
     },
     {
       icon: "Alert",
-      text: "Provides alerts for fires, falls, fights, or other activity."
+      text: "Alerts and monitoring are enabled"
     },
     {
       icon: "Video",
-      text: "New or unusual behaviors are presented as an intelligent graphic to the user."
+      text: "Client uses the system as SaaS"
     },
     {
       icon: "AI",
-      text: "Continuous learning and adaptation to improve detection accuracy over time."
+      text: "Continuous monitoring and support"
     }
   ];
 

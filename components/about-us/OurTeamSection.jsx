@@ -4,19 +4,22 @@ export default function OurTeamSection() {
       name: "Ayesha Sadiqa Khan",
       role: "AI Lead",
       description: "Leading the AI development and machine learning initiatives for violence detection systems.",
-      image: "/images/aboutus/AI-Lead.jpg"
+      image: "/images/aboutus/AI-Lead.jpg",
+      linkedin: "https://www.linkedin.com/in/ayesha-khan-6762071b4?utm_source=share_via&utm_content=profile&utm_medium=member_android"
     },
     {
       name: "Sami Ur Rehman",
       role: "Web Lead",
       description: "Overseeing web development and user interface design for the platform.",
-      image: "/images/aboutus/Web-Lead.jpg"
+      image: "/images/aboutus/Web-Lead.jpg",
+      linkedin: "https://www.linkedin.com/in/egoro/"
     },
     {
       name: "Usman Abbasi",
       role: "Integration Lead",
       description: "Managing system integration and ensuring seamless connectivity across platforms.",
-      image: "/images/aboutus/Integrate-Lead.jpg"
+      image: "/images/aboutus/Integrate-Lead.jpg",
+      linkedin: "https://www.linkedin.com/in/sal-mani/"
     }
   ];
 

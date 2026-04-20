@@ -3,14 +3,14 @@ export default function ContactInfoSection() {
     {
       icon: "Email",
       title: "Email",
-      content: "abc@gmail.com",
-      link: "mailto:abc@gmail.com"
+      content: "ak31khan.03@gmail.com",
+      link: "mailto:ak31khan.03@gmail.com"
     },
     {
       icon: "Phone",
       title: "Phone",
-      content: "+92345678705",
-      link: "tel:+92345678705"
+      content: "+923160757674",
+      link: "tel:+923160757674"
     },
     {
       icon: "Location",

@@ -6,15 +6,15 @@ export default function HowSystemWorksSection() {
       points: [
         {
           icon: "Checkmark",
-          text: "Zero false alarms"
+          text: "Alert Immediately"
         },
         {
           icon: "Envelope",
-          text: "Receive SMS and email alerts for real events"
+          text: "Security personnel get to know"
         },
         {
           icon: "Speaker",
-          text: "Automated and live person talk-down speaker"
+          text: "Communication done and they try to stop the violence as soon as possible"
         }
       ]
     },
@@ -24,15 +24,15 @@ export default function HowSystemWorksSection() {
       points: [
         {
           icon: "Target",
-          text: "Real-time tracking of the threat and its location"
+          text: "An Irrelevent Event Occurs"
         },
         {
           icon: "Location",
-          text: "Share real-time incident location with first responders"
+          text: "Violation Detection and Prevention"
         },
         {
           icon: "Lock",
-          text: "Dynamic lockdown & emergency evacuation plans"
+          text: "Alerts and Security Communication"
         }
       ]
     },

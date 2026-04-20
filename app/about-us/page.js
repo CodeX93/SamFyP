@@ -1,4 +1,4 @@
-import ScrollableHeader from '@/components/about-us/ScrollableHeader'
+import Header from '@/components/Header'
 import AboutUsHeroSection from '@/components/about-us/AboutUsHeroSection'
 import OurMissionSection from '@/components/about-us/OurMissionSection'
 import SeeHowItWorksSection from '@/components/about-us/SeeHowItWorksSection'
@@ -11,7 +11,7 @@ import FooterSection from '@/components/FooterSection'
 export default function AboutUsPage() {
   return (
     <main className="min-h-screen overflow-x-hidden">
-      <ScrollableHeader />
+      <Header />
       <AboutUsHeroSection />
       <OurMissionSection />
       <SeeHowItWorksSection />

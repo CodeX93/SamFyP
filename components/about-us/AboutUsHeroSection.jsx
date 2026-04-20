@@ -1,7 +1,11 @@
 export default function AboutUsHeroSection() {
   return (
-    <section className="relative min-h-screen w-full flex items-center justify-center text-black pt-20 m-0" style={{ backgroundColor: '#636769' }}>
-      <div className="container mx-auto px-6 w-full">
+    <section
+      className="relative min-h-screen w-full flex items-center justify-center text-black pt-20 m-0 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: 'url(/images/aboutus/Image.png)' }}
+    >
+      <div className="absolute inset-0 bg-[#636769]/75" />
+      <div className="container relative z-10 mx-auto px-6 w-full">
         <div className="flex flex-col lg:flex-row items-center gap-12 min-h-[calc(100vh-5rem)]">
           {/* Left: Text Content */}
           <div className="flex-1 w-full">
@@ -23,7 +27,7 @@ export default function AboutUsHeroSection() {
               <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: 'url(/images/home/hero.jpg)'
+                  backgroundImage: 'url(/images/aboutus/WhatsApp%20Image%202026-01-22%20at%205.25.55%20PM%201.png)'
                 }}
               >
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>

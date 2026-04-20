@@ -26,17 +26,12 @@ export default function Header() {
     <>
       <header className="bg-black text-white fixed w-full top-0 z-50 shadow-lg">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="relative">
-              <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none"/>
-                <circle cx="12" cy="8" r="2" fill="#EF4444"/>
-                <path d="M8 16C8 14 10 12 12 12C14 12 16 14 16 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                <path d="M6 6L10 10M14 10L18 6M6 18L10 14M18 18L14 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-              </svg>
-              <div className="absolute top-0 right-0 w-3 h-3 bg-red-500 rounded-full"></div>
-            </div>
-            <span className="font-bold text-lg hidden md:inline">Intent-Based Violence Prediction System</span>
+          <div className="flex items-center">
+            <img
+              src="/images/navbar/ChatGPT_Image_Jan_9__2026__02_20_03_AM-removebg-preview%201.png"
+              alt="Logo"
+              className="w-14 h-14 object-contain"
+            />
           </div>
           
           {/* Desktop Navigation */}
@@ -95,15 +90,11 @@ export default function Header() {
           {/* Drawer Header */}
           <div className="flex items-center justify-between p-6 border-b border-gray-700">
             <div className="flex items-center space-x-2">
-              <div className="relative">
-                <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none"/>
-                  <circle cx="12" cy="8" r="2" fill="#EF4444"/>
-                  <path d="M8 16C8 14 10 12 12 12C14 12 16 14 16 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                  <path d="M6 6L10 10M14 10L18 6M6 18L10 14M18 18L14 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                </svg>
-                <div className="absolute top-0 right-0 w-3 h-3 bg-red-500 rounded-full"></div>
-              </div>
+              <img
+                src="/images/navbar/ChatGPT_Image_Jan_9__2026__02_20_03_AM-removebg-preview%201.png"
+                alt="Logo"
+                className="w-14 h-14 object-contain"
+              />
               <span className="font-bold text-sm">IBVPS</span>
             </div>
             <button

@@ -15,7 +15,7 @@ export default function OurServicesSection() {
     {
       title: "Alerting System",
       description: "Get real-time alerts for violent incidents, allowing for rapid response.",
-      image: "/images/services/service3.png",
+      image: "/images/home/service3.png",
       buttonText: "Learn More"
     }
   ];

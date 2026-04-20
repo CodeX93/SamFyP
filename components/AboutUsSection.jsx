@@ -8,11 +8,11 @@ export default function AboutUsSection() {
             <div className="bg-white rounded-xl shadow-xl overflow-hidden">
               <div className="relative bg-black aspect-video flex items-center justify-center">
                 {/* Video Thumbnail */}
-                <div className="absolute inset-0 bg-black flex items-center justify-center">
-                  <svg className="w-24 h-24 text-white/50" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M8 5v14l11-7z"/>
-                  </svg>
-                </div>
+                <div
+                  className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                  style={{ backgroundImage: 'url(/images/aboutus/Iframe.png)' }}
+                />
+                <div className="absolute inset-0 bg-black/30" />
                 {/* Play button overlay */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center cursor-pointer hover:bg-white transition-colors">
@@ -23,7 +23,7 @@ export default function AboutUsSection() {
                 </div>
               </div>
               <div className="p-6">
-                <p className="text-gray-800 font-medium text-lg">
+                <p className="text-gray-800 font-medium text-lg font-weight-bolder">
                   Protect your people when every second counts!
                 </p>
               </div>

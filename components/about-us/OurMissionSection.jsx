@@ -10,11 +10,11 @@ export default function OurMissionSection() {
       title: "Immediate response to Violence detection",
       description: "Real-time identification and tracking throughout your facilities"
     },
-    {
-      icon: "Location",
-      title: "Track threat movement",
-      description: "Use real-time geo-location to your advantage"
-    },
+    // {
+    //   icon: "Location",
+    //   title: "Track threat movement",
+    //   description: "Use real-time geo-location to your advantage"
+    // },
     {
       icon: "Shield",
       title: "Protect individual privacy",
